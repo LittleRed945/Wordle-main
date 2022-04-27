@@ -6,8 +6,8 @@ struct generate_board:View{
         VStack{
             
                 HStack{
-                    ForEach(input.indices){index in
-                        board_view(str: input[index])
+                    ForEach(input){chr in
+                        board_view(str: chr)
                         
                     }
                 }
